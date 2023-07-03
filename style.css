@@ -139,6 +139,47 @@
     height:50px;
     background-color: #FFF6F5;
     border-radius:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    height:30px;
+    width:275px;
+    display:flex;
+    flex-direction: row;
+}
+.logo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width:30px;
+}
+.name {
+    color:hsl(0, 100%, 67%);
+    font-size:1.1rem;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:100%;
+    width:150px;
+}
+.first_number {
+    color:;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width:40px;
+}
+.second_number {
+    color:hsl(224, 30%, 27%);
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:100%;
+    width:55px;
 }
 .memory {
     width:100%;
@@ -159,26 +200,9 @@
     background-color: #F3F3FD;
     border-radius:10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .continue {
     height:80px;
     width:300px;
-    
     display:flex;
     justify-content: center;
     align-items: flex-end;
