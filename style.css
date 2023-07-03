@@ -22,7 +22,9 @@
     flex-direction: row;
 }
 .purplebox {
-    
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     height:100%;
     width:50%;
@@ -30,6 +32,49 @@
     border-radius:35px 0 0 35px;
     
 }
+.purple_inside {
+    width:300px;
+    height:430px;
+    border:1px solid;
+}
+.purple_result {
+    height:60px;
+    width:300px;
+    border:1px solid;
+}
+.purple_circle_box {
+    height:230px;
+    width:300px;
+    border:1px solid;
+}
+.purple_great {
+    height:60px;
+    width:300px;
+    border:1px solid;
+}
+.purple_info {
+    height:80px;
+    width:300px;
+    border:1px solid;
+}
+
+
+                    <div class="purple_great"></div>
+                    <div class="purple_info"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .whitebox {
     background-color: white;
     height:100%;
