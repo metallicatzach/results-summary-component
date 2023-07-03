@@ -2,9 +2,9 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 .body {
-
 }
 .main1 {
     height:1000px;
@@ -18,6 +18,13 @@
     left:100px;
     height:500px;
     width:750px;
+}
+.whitebox_container {
+    background-color: white;
+    height:500px;
+    width:750px;
+    border:1px solid;
+    border-radius:35px;
     display:flex;
     flex-direction: row;
 }
@@ -26,11 +33,10 @@
     justify-content: center;
     align-items: center;
     background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-    height:100%;
-    width:50%;
+    height:500px;
+    width:375px;
     border:1px solid;
-    border-radius:35px 0 0 35px;
-    
+    border-radius:35px;
 }
 .purple_inside {
     width:300px;
@@ -38,9 +44,13 @@
     border:1px solid;
 }
 .purple_result {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     height:60px;
     width:300px;
     border:1px solid;
+   
 }
 .purple_circle_box {
     height:230px;
@@ -48,37 +58,42 @@
     border:1px solid;
 }
 .purple_great {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     height:60px;
     width:300px;
     border:1px solid;
 }
 .purple_info {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     height:80px;
     width:300px;
     border:1px solid;
 }
-
-
-                    <div class="purple_great"></div>
-                    <div class="purple_info"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .whitebox {
-    background-color: white;
-    height:100%;
-    width:50%;
-    border:1px solid;
-    border-radius:0 35px 35px 0;
+    width:375px;
+    height:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+.white_inside {
+    width:300px;
+    height:430px;
+    border:1px solid;
+
+}
+
+
+
+
+
+
+
+
+
+
