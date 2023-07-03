@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.body {
+
+}
+.main1 {
+    height:1000px;
+    width:1000px;
+    border:1px solid;
+    
+}
+.main2 {
+    position:absolute;
+    top: 200px;
+    left:100px;
+    height:500px;
+    width:750px;
+    display:flex;
+    flex-direction: row;
+}
+.purplebox {
+    
+    background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    height:100%;
+    width:50%;
+    border:1px solid;
+    border-radius:35px 0 0 35px;
+    
+}
+.whitebox {
+    background-color: white;
+    height:100%;
+    width:50%;
+    border:1px solid;
+    border-radius:0 35px 35px 0;
+}
