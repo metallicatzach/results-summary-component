@@ -4,16 +4,19 @@
     padding:0;
     font-family: 'Hanken Grotesk', sans-serif;
 }
+.body {
+    width:1440px;
+    height:1100px;
+}
 .main1 {
-    height:1000px;
-    width:1000px;
-    border:1px solid;
+    height:600px;
+    width:800px;
     
 }
 .main2 {
     position:absolute;
-    top: 200px;
-    left:100px;
+    top: 280px;
+    left:350px;
     height:500px;
     width:750px;
     box-shadow: 10px 10px 19px 0px rgba(67, 20, 98, 0.28);
@@ -225,6 +228,22 @@
 .continue_text {
     color:white;
 }
+.memory .content .name {
+    color:hsl(39, 100%, 56%);
+}
+.verbal .content .name {
+    color:hsl(166, 100%, 37%);
+}
+.visual .content .name {
+    color:hsl(234, 85%, 45%);
+}
+
+
+
+
+
+
+
 
 
 
