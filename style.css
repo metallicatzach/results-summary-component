@@ -167,7 +167,6 @@
     width:150px;
 }
 .first_number {
-    color:;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -237,13 +236,4 @@
 .visual .content .name {
     color:hsl(234, 85%, 45%);
 }
-
-
-
-
-
-
-
-
-
 
